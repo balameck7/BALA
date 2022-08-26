@@ -1,0 +1,15 @@
+package week3.day6;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class FindsecondLargest {
+	public static void main (String args[] ) {
+		int[] data = { 3,4,5,88,99,44,22,34,11,33,2222,32} ;
+		Set<Integer> sortedData = new TreeSet<Integer>();
+		
+				
+		
+	}
+
+}
