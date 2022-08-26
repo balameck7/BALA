@@ -1,0 +1,24 @@
+package week1.day2;
+
+public class Assignment1 {
+	
+	public static void main(String[] args) {
+		 
+		assignment obj = new assignment();
+		int sumresult = obj.sum(10,6);
+		System.out.println("sumresult: "+sumresult);
+		
+		assignment obj1 = new assignment();
+		int subresult = obj1.sub(10,6);
+		System.out.println("subresult: " +subresult);
+		
+		assignment obj2 = new assignment();
+		int mulresult = obj2.mul(10,6);
+		System.out.println("mulresult: " +mulresult);
+		
+		assignment obj3 = new assignment();
+		int divresult = obj3.div(32,6);
+		System.out.println("divresult: " +divresult);
+	}
+}
+	
