@@ -1,0 +1,10 @@
+package NewProj;
+
+public class computer extends student {
+	
+	public void computerModel() {
+
+		System.out.println("Computer Model is MacBook PRO M2");
+	}
+
+}
