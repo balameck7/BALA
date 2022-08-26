@@ -1,0 +1,16 @@
+package NewProj;
+
+public class laptop extends computer {
+
+		public void laptopSize() {
+
+			System.out.println("laptop size is 17 inch");
+		}
+
+		public static void main(String[] args) {
+
+		    laptop laptop = new laptop();
+			laptop.computerModel();
+			laptop.laptopSize();
+}
+}
