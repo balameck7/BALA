@@ -1,0 +1,50 @@
+package week2.day2;
+
+public class Myvehicles {
+	public void audiStart() {
+		// TODO Auto-generated method stub
+		System.out.println("Audi Started");
+	}
+	public void autoGas() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Gas filled");
+	}
+	public void bajajFin() {
+		// TODO Auto-generated method stub
+		System.out.println("EMI Applied for auto");
+
+	}
+	public void bmwStart() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Started");
+
+	}
+	public void applyBrake() {
+		System.out.println("Brake Applied");
+		
+	}
+	
+	public void honkhorn() {
+		// TODO Auto-generated method stub
+		System.out.println("Horn Honked");
+
+	}
+	public static void main(String[] args) {
+		
+		Myvehicles c = new Myvehicles();
+		c.applyBrake();
+		c.honkhorn();
+		c.bmwStart();
+		c.audiStart();
+		
+		Myvehicles a = new Myvehicles();
+		
+		a.autoGas();
+		a.bajajFin();
+		
+		
+	}
+}
+
