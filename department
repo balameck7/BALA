@@ -1,0 +1,9 @@
+package NewProj;
+
+
+public class department extends college {
+	static void departmentName() {
+		System.out.println("Department name is Mechanical Engg");
+	}
+
+}
