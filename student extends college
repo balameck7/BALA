@@ -1,0 +1,20 @@
+package NewProj;
+
+public class student extends college {
+	
+	static void studentName() {
+		System.out.println("Student Name is Bala");
+	}
+	
+	static void studentId() {
+		System.out.println("Student id is 95510114010");
+	}
+	
+	static void studentJoiningyear() {
+		System.out.println("Student joining year is 2010");
+	}
+	
+	static void studentCompletingyear() {
+		System.out.println("Student completing year is 2014");
+	}
+}
