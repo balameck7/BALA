@@ -1,0 +1,15 @@
+package NewProj;
+
+public class college {
+	
+	static void collegeName() {
+		
+		System.out.println("College name is Francis Xavier");
+	}
+	static void collegeCode() {
+		System.out.println("College code is 95510114");
+	}
+	static void collegeRank() {
+		System.out.println("College Rank 116");
+	}
+}
